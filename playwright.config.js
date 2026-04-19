@@ -24,7 +24,7 @@ module.exports = defineConfig({
   use: {
     baseURL: 'https://formy-project.herokuapp.com/',
 
-    headless: false,
+    headless: true,
 
     viewport: null,
     
