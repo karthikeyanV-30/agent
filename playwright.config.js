@@ -26,11 +26,13 @@ module.exports = defineConfig({
 
     headless: true,
 
-    viewport: null,
+    // viewport: null,
+
+      viewport: { width: 1920, height: 1080 },
     
-    launchOptions: {
-      args: ['--start-maximized']
-    },
+    // launchOptions: {
+    //   args: ['--start-maximized']
+    // },
 
     screenshot: 'only-on-failure',
 
