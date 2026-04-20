@@ -9,8 +9,8 @@ test('Fill form and verify success message', async ({ page }) => {
   await test.step('Fill out the form', async () => {
     const formPage = new FormPage(page);
     await formPage.fillForm({
-      firstName: 'John',
-      lastName: 'Cena',
+      firstName: 'Under',
+      lastName: 'Taker',
       jobTitle: 'Engineer',
       experience: '2-4',
       date: '01/01/2020'
