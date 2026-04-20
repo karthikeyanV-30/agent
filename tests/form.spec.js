@@ -10,7 +10,7 @@ test('Fill form and verify success message', async ({ page }) => {
     const formPage = new FormPage(page);
     await formPage.fillForm({
       firstName: 'John',
-      lastName: 'Doe',
+      lastName: 'Cena',
       jobTitle: 'Engineer',
       experience: '2-4',
       date: '01/01/2020'
